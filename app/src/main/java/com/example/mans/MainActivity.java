@@ -1,11 +1,14 @@
 package com.example.mans;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.app.Activity;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.KeyEvent;
+import android.view.View;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -38,7 +41,22 @@ public class MainActivity extends AppCompatActivity {
         webSettings.setSaveFormData(true);
         webSettings.setEnableSmoothTransition(true);
         webView.loadUrl("https://www.kotika.net/schedule");
+
+        DrawerLayout drawerLayout = findViewById(R.id.drawerLayout);
+        findViewById(R.id.imageMenu).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                webView.loadUrl("https://www.kotika.net/schedule");
+            }
+        });
+        findViewById(R.id.imageMenu4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                webView.loadUrl("https://www.kotika.net/domashka");
+            }
+        });
     }
+
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event){
