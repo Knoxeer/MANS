@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="home"
+        android:enabled="true"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_view_list_24"></item>
+    <item
+        android:id="schedule"
+        android:enabled="true"
+        android:title="Schedule"
+        android:icon="@drawable/ic_baseline_view_list_24"></item>
+    <item
+        android:id="domashka"
+        android:enabled="true"
+        android:title="Domashka"
+        android:icon="@drawable/ic_baseline_view_list_24"></item>
+    <item
+        android:id="lectures"
+        android:enabled="true"
+        android:title="Lectures"
+        android:icon="@drawable/ic_baseline_view_list_24"></item>
+    <item
+        android:id="home"
+        android:enabled="true"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_view_list_24"></item>
+    <item
+        android:id="help"
+        android:enabled="true"
+        android:title="Help"
+        android:icon="@drawable/ic_baseline_view_list_24"></item>
+    <item
+        android:id="Vhod"
+        android:enabled="true"
+        android:title="Vhod"
+        android:icon="@drawable/ic_baseline_view_list_24"></item>
+
+</menu>
